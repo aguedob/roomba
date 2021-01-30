@@ -331,7 +331,7 @@ void getSensors() {
 	if ( Roomba.state == STATE_RETURNING ) {
 		if ( Roomba.battery_percent > 10 && Roomba.battery_current > -300 ) {
 			Roomba.num_restarts++;
-			return_to_base();
+			//return_to_base();
 		}
 	}
 
